@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "Tailwind Build",
+          "type": "shell",
+          "command": "npx @tailwindcss/cli -i css/app.css -o css/compiled.css --watch",
+          "isBackground": true,
+          "problemMatcher": [],
+          "runOptions": {
+              "runOn": "folderOpen"
+          }
+      },
+      {
+        "label": "Electron Run",
+        "type": "shell",
+        "command": "npm start",
+        "problemMatcher": [],
+        "runOptions": {
+          "runOn": "folderOpen"
+        }
+      },
+      {
+        "label": "Typescript Compile",
+        "type": "shell",
+        "command": "npx tsc --watch",
+        "problemMatcher": [],
+        "runOptions": {
+          "runOn": "folderOpen"
+        }
+      }
+  ]
+}
