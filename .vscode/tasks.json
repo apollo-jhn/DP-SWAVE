@@ -1,0 +1,24 @@
+{
+    // See https://code.visualstudio.com/docs/editor/tasks for more information
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Tailwind Compile",
+            "type": "shell",
+            "command": "npx @tailwindcss/cli -i css/app.css -o css/compiled-app.css --watch",
+            "problemMatcher": [],
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        },
+        {
+            "label": "Electron",
+            "type": "shell",
+            "command": "npm start",
+            "problemMatcher": [],
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        }
+    ]
+}

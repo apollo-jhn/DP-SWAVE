@@ -1,0 +1,10 @@
+{
+    "css.styleSheets": [
+        {
+            "label": "Tailwind CSS",
+            "watch": "css/app.css",
+            "output": "css/compiled-app.css",
+            "command": "npx @tailwindcss/cli -i css/app.css -o css/compiled-app.css --watch"
+        }
+    ]
+}
