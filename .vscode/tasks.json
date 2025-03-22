@@ -19,6 +19,15 @@
             "runOptions": {
                 "runOn": "folderOpen"
             }
+        },
+        {
+            "label": "Typescript Compile",
+            "type": "shell",
+            "command": "npx tsc -w",
+            "problemMatcher": [],
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
         }
     ]
 }

@@ -39,10 +39,13 @@ function createWindow() {
     const win = new electron_1.BrowserWindow({
         width: 800,
         height: 480,
+        useContentSize: true,
+        resizable: false,
         webPreferences: {
             preload: path.join(__dirname, 'preload.js'),
         },
     }); // Explicit type assertion
+    win.setMenuBarVisibility(false);
     win.loadFile('index.html');
 }
 electron_1.app.whenReady().then(() => {
