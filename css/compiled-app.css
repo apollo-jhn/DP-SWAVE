@@ -156,6 +156,9 @@
   .relative {
     position: relative;
   }
+  .flex {
+    display: flex;
+  }
   .h-screen {
     height: 100vh;
   }
