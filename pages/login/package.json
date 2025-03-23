@@ -6,14 +6,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "apollo-jhn",
   "license": "Apache-2.0",
   "description": "",
-  "devDependencies": {
-    "typescript": "^5.8.2"
-  },
   "dependencies": {
     "@tailwindcss/cli": "^4.0.15",
+    "live-server": "^1.2.2",
     "tailwindcss": "^4.0.15"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "npm": "^11.2.0",
+    "typescript": "^5.8.2"
   }
 }

@@ -1,3 +1,5 @@
 {
-    "css.styleSheets": ["css/output.css"]
+    "css.styleSheets": [
+        "css/app-compiled.css"
+    ]
 }

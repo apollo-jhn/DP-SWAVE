@@ -2,20 +2,23 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "TailWind Compile",
-            "type": "shell",
-            "command": "npx @tailwindcss/cli -i css/input.css -o css/output.css --watch",
+            "label": "Tailwind CSS",
             "runOptions": {
                 "runOn": "folderOpen"
-            }
+            },
+            "type": "shell",
+            "command": "npx @tailwindcss/cli -i assets/css/app.css -o assets/css/app-compiled.css --watch",
+            "problemMatcher": []
+
         },
         {
-            "label": "Typescript Compile",
-            "type": "shell",
-            "command": "npx tsc -w",
+            "label": "Typescript Watch",
             "runOptions": {
                 "runOn": "folderOpen"
-            }
+            },
+            "type": "shell",
+            "command": "npx tsc -w",
+            "problemMatcher": []           
         }
     ]
 }
